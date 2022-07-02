@@ -1,0 +1,61 @@
+body{
+    background-color: #eee;
+}
+#container{
+    /* border: 1px solid red; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 30px;
+    
+}
+#flex {
+    display: flex;
+    justify-content: space-around;
+
+}
+#image>img{
+    width: 520px;
+}
+#content{
+    padding-top: 20%;
+    text-align: center;
+}
+#content>h2{
+    color: grey;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#content>h1{
+    width: 300px;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+#content>a{
+    border: 1px solid grey;
+    padding: 16px 48px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+#ourWork{
+    padding: 10px;
+    background-color: #333333;
+    text-align: center;
+    color: aliceblue;
+}
+.card>img{
+ display: block;
+ width: 100%;
+}
+.card{
+    text-align: center;
+    font-size: larger;
+}
+#contact{
+    text-align: center;
+    padding: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
